@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import { Config } from 'tailwindcss';
 
 export default {
   content: [
@@ -8,6 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        smPhone: '320px',
+        mdPhone: '540px',
+        tablet: '640px',
+        laptop: '1024px',
+        desktop: '1280px',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
