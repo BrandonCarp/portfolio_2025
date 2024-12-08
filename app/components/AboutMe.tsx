@@ -11,8 +11,8 @@ export default function AboutMe() {
         width={160}
         height={160}
       />
-      <h1 className="text-2xl smPhone:text-2xl font-bold text-blue-500">Me, Myself, & I</h1>
-      <p className="text-[16px]">I'm Brandon Carpenter, a self-taught developer passionate about Full Stack Development (air quotes). I bring diverse experience in project management and client relations, and I enjoy learning spoken languages and spending time with my dog, Kohaku.</p>
+      <h1 className="text-2xl smPhone:text-2xl font-bold text-blue-500">About Me</h1>
+      <p className="text-[16px]">I'm Brandon Carpenter, a self-taught developer passionate about Full Stack Development. I bring diverse experience in project management and client relations, and I enjoy learning spoken languages and spending time with my dog, Kohaku.</p>
     </div>
   );
 }
