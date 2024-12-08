@@ -58,7 +58,7 @@ const TypewriterEffect = () => {
   }, [charIndex, isTypingSecondText, correctText]);
 
   return (
-    <div style={{ fontFamily: "monospace", fontSize: "20px", display: "flex" }}>
+    <div className="font-bold ml-5 text-10 smPhone:text-[20px] mb-10" style={{ fontFamily: "monospace", display: "flex" }}>
       <span style={{ color: "purple", marginRight: "5px" }}>{">"}</span>
       <span>{displayedText}</span>
       {showCursor && <span className="cursor" style={{ marginLeft: "2px" }}>|</span>}

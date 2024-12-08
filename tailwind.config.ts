@@ -6,12 +6,14 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "selector",
   theme: {
     extend: {
       screens: {
-        smPhone: '320px',
+        smPhone: '400px',
         mdPhone: '540px',
-        tablet: '640px',
+        tablet: '630px',
+        lgTablet: '875px',
         laptop: '1024px',
         desktop: '1280px',
       },
