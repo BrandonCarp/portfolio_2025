@@ -33,7 +33,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-gray-900 dark:text-white bg-white text-black `}
-        style={{ fontFamily: "'monospace', 'Roboto', sans-serif" }}>
+        style={{ fontFamily: "monospace", display: "flex" }}>
         {children}
       </body>
     </html>

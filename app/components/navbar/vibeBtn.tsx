@@ -29,7 +29,7 @@ const MusicButton: React.FC = () => {
     <div>
       <button
         onClick={playLofi}
-        className=" bg-black text-white px-2  py-1 rounded font-bold hover:-translate-y-1 hover:scale-110 duration-300"
+        className=" bg-violet-500 text-gray-700 px-3 font-bold  py-2 rounded  hover:-translate-y-1 hover:scale-110 duration-300"
       >
         {music ? "Pause" : "Vibe"}
       </button>

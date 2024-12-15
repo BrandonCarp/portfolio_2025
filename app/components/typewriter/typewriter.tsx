@@ -58,8 +58,8 @@ const TypewriterEffect = () => {
   }, [charIndex, isTypingSecondText, correctText]);
 
   return (
-    <div className="font-bold ml-5 text-10 smPhone:text-[20px] mb-10" style={{ fontFamily: "monospace", display: "flex" }}>
-      <span style={{ color: "purple", marginRight: "5px" }}>{">"}</span>
+    <div className="font-bold ml-5 text-10 smPhone:text-[20px] mb-10 laptop:text-[24px] laptop:ml-10" style={{ fontFamily: "monospace", display: "flex" }}>
+      <span className="text-violet-500 mr-2" >{">"}</span>
       <span>{displayedText}</span>
       {showCursor && <span className="cursor" style={{ marginLeft: "2px" }}>|</span>}
     </div>

@@ -9,7 +9,11 @@ export default {
   darkMode: "selector",
   theme: {
     extend: {
+      fontFamily: {
+        mono: ['ui-monospace', 'SFMono-Regular', 'monospace'],
+      },
       screens: {
+        xs: '320px',
         smPhone: '400px',
         mdPhone: '540px',
         tablet: '630px',
