@@ -19,11 +19,11 @@ export default function CustomizedList() {
 
   return (
     <div
-      style={{ fontFamily: "monospace" }}
-      className="font-mono flex items-center justify-center mx-auto dark:text-white"
+
+      className=" flex items-center justify-center mx-auto dark:text-white"
     >
       <List
-        className="font-mono flex flex-col lgTablet:flex-row items-center justify-center space-y-4 lgTablet:space-y-0 lgTablet:space-x-4"
+        className=" flex flex-col lgTablet:flex-row items-center justify-center space-y-4 lgTablet:space-y-0 lgTablet:space-x-4"
         style={{ maxWidth: 650 }}
       >
         {data.map((item, index) => (
