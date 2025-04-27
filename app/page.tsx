@@ -1,6 +1,6 @@
 'use client';
 import NavBar from "./components/navbar/navbar";
-import TypewriterEffect from "./components/typewriter/typewriter";
+import Project from "./components/projects/project";
 import HeroSection from "./components/hero/heroSection";
 import AboutMe from "./components/AboutMe";
 
@@ -13,6 +13,7 @@ export default function Home() {
           <HeroSection />
         </div>
         <AboutMe />
+<Project />
       </div>
 
     </ div>
